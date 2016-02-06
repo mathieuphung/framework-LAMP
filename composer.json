@@ -1,0 +1,16 @@
+{
+    "name": "user/framework",
+    "authors": [
+        {
+            "name": "mathieuphung",
+            "email": "phung.mathieu@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Library\\": "library",
+            "App\\": "application"
+        }
+    },
+    "require": {}
+}
