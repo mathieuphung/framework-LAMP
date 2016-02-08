@@ -6,6 +6,12 @@ class HomeController
 {
     public function defaultAction()
     {
-        echo "Homepage";
+        $twig = new \Config\Twig('home/index.html.twig');
+        $twig->render(
+            array
+            (
+                'title' => 'Homepage'
+            )
+        );
     }
 }

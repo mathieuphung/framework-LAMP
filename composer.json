@@ -9,8 +9,11 @@
     "autoload": {
         "psr-4": {
             "Library\\": "library",
-            "App\\": "application"
+            "App\\": "application",
+            "Config\\": "config"
         }
     },
-    "require": {}
+    "require": {
+        "twig/twig": "~1.0"
+    }
 }
