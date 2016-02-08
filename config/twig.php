@@ -1,5 +1,6 @@
 <?php
 namespace Config;
+
 class Twig
 {
     public $twig;
