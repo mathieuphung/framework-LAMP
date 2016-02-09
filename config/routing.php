@@ -2,6 +2,8 @@
 $router = new Library\Router($_GET['url']);
 
 $router->get('/', 'Home#defaultAction');
+$router->get('/signup', 'Register#defaultAction');
+$router->post('/signup', 'Register#signupAction');
 $router->get('/posts', function () {
     echo 'Tous les articles';
 });

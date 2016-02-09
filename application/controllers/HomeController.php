@@ -10,8 +10,9 @@ class HomeController
         $twig->render(
             array
             (
-                'title' => 'Homepage'
+                'title' => 'Homepage',
             )
         );
+
     }
 }
