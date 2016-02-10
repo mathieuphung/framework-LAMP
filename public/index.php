@@ -1,5 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>framework</title>
+</head>
+<body>
 <?php
-
+session_start();
 /*define('DS', DIRECTORY_SEPARATOR);
 define('ROOT', dirname(dirname(__FILE__)));
 
@@ -20,3 +27,6 @@ $response = $router->run($route);
 
 require '../vendor/autoload.php';
 require_once '../config/config.php';
+?>
+</body>
+</html>
